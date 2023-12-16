@@ -1,6 +1,6 @@
-package View.Panels;
+package view.panels;
 
-import View.Buttons.InputImageButton;
+import view.buttons.InputImageButton;
 
 import javax.swing.*;
 
