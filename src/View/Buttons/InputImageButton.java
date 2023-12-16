@@ -1,20 +1,12 @@
 package View.Buttons;
 
-import View.MainWindow;
-
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
 
 public class InputImageButton extends JButton {
     public InputImageButton() {
         setText("Test");
-        addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                savePathToFile();
-            }
-        });
+        addActionListener(e -> savePathToFile());
     }
 
     private void savePathToFile() {
